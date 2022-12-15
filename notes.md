@@ -143,7 +143,9 @@ const { temp1, temp2, ...person } = data;
  
   - file1.js // this file is returning a template string
   
-       ` module.exports ='// this is backtick (because  is multiline template string)
+       ` module.exports ='// this is backtick (because  is multiline template string)`
+       
+       `
             <!DOCTYPE html>
             <html lang="en">
             <head>
@@ -156,7 +158,6 @@ const { temp1, temp2, ...person } = data;
 
             </body>
             </html>
-         '
        `
        
  - file2.js
